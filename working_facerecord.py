@@ -15,7 +15,7 @@ NMS_THRESH = 0.3
 # from each other
 MIN_DISTANCE = 100
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-cap = cv2.VideoCapture("s2.mp4")
+cap = cv2.VideoCapture("Input Video")
 
 def detect_people(frame, net, ln, personIdx=0):
 
@@ -118,7 +118,7 @@ ap.add_argument("-o", "--output", type=str, default="",
     help="path to (optional) output video file")
 ap.add_argument("-d", "--display", type=int, default=1,
     help="whether or not output frame should be displayed")
-args = vars(ap.parse_args(["--input","s2.mp4","--output","my_output.avi","--display","1"]))
+args = vars(ap.parse_args(["--input","Input Video","--output","my_output.avi","--display","1"]))
 
 # load the COCO class labels our YOLO model was trained on
 labelsPath = os.path.sep.join(["coco.names"])

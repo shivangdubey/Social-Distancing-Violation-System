@@ -10,5 +10,7 @@ Using YOLO (You Only Look Once) algorithms and OpenCV, the project aims to detec
 # Base Programming Language:
 1. Python
 
+![Result](https://github.com/shivangdubey/Social-Distancing-Violation-System/blob/main/yolo_project.png)
+
 # Thesis:
 [Project Thesis](https://github.com/shivangdubey/Social-Distancing-Violation-System/blob/main/Minor_Thesis.pdf)
